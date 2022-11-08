@@ -22,231 +22,202 @@ public class App {
         };
 
         // =============================================================
-                    // ALFONSO - (10 points)
-                    System.out.println(" ");
-                    System.out.println("1. ALFONSO ");
+        // ALFONSO - (10 points)
+        System.out.println(" ");
+        System.out.println("1. ALFONSO ");
 
-        // Outer Loop - ROWS
-        for (int rows = 0; rows == 0; rows++) {
+        for (int row = 0; row < 15; row ++) {
+            System.out.println("");
+        for (int column = 0; column < 15; column ++) {
 
-            // Inner Loop - COLUMNS
-            for (int columns = 0; columns < 14; rows++) {
-                if (rows == 1) {
-                    System.out.println(array[2][8]);
-                    System.out.println(array[3][8]);
-                    System.out.println(array[4][8]);
-                    System.out.println(array[5][8]);
-                    System.out.println(array[6][8]);
-                    System.out.println(array[7][8]);
-                    System.out.println(array[8][8]);               
-
-                    // INSTAGRAM - (10 points)
-                    System.out.println(" ");
-                    System.out.println("2. INSTAGRAM ");
-                    System.out.println(array[1][1]);
-                    System.out.print(" ");
-                    System.out.println(array[2][2]);
-                    System.out.print("  ");
-                    System.out.println(array[3][3]);
-                    System.out.print("   ");
-                    System.out.println(array[4][4]);
-                    System.out.print("    ");
-                    System.out.println(array[5][5]);
-                    System.out.print("     ");
-                    System.out.println(array[6][6]);
-                    System.out.print("      ");
-                    System.out.println(array[7][7]);
-                    System.out.print("       ");
-                    System.out.println(array[8][8]);
-                    System.out.print("        ");
-                    System.out.println(array[9][9]);
-
-                    // PULUTAN - (10 points)
-                    System.out.println(" ");
-                    System.out.println("3. PULUTAN ");
-                    System.out.print(array[13][2]);
-                    System.out.print(array[13][3]);
-                    System.out.print(array[13][4]);
-                    System.out.print(array[13][5]);
-                    System.out.print(array[13][6]);
-                    System.out.print(array[13][7]);
-                    System.out.print(array[13][8]);               
-
-
-                    // TUESDAY - (10 points)
-                    System.out.println(" ");
-                    System.out.println("4. TUESDAY ");
-                    System.out.println(array[8][1]);
-                    System.out.println(array[9][1]);
-                    System.out.println(array[10][1]);
-                    System.out.println(array[11][1]);
-                    System.out.println(array[12][1]);
-                    System.out.println(array[13][1]);
-                    System.out.println(array[14][1]);               
-
-                    // CHILLTOP - (10 points)
-                    System.out.println("       ");
-                    System.out.println("5. CHILLTOP ");
-                    System.out.print("        ");
-                    System.out.println(array[3][14]);
-                    System.out.print("       ");
-                    System.out.println(array[4][13]);
-                    System.out.print("      ");
-                    System.out.println(array[5][12]);
-                    System.out.print("     ");
-                    System.out.println(array[6][11]);
-                    System.out.print("    ");
-                    System.out.println(array[7][10]);
-                    System.out.print("   ");
-                    System.out.println(array[8][9]);
-                    System.out.print("  ");;
-                    System.out.println(array[9][8]);
-                    System.out.print(" ");
-                    System.out.println(array[10][7]); 
-
-                    // MANILA - (10 points)
-                    System.out.println(" ");
-                    System.out.println("6. MANILA ");
-                    System.out.println(array[5][0]);
-                    System.out.print(" ");
-                    System.out.println(array[6][1]);
-                    System.out.print("  ");
-                    System.out.println(array[7][2]);
-                    System.out.print("   ");
-                    System.out.println(array[8][3]);
-                    System.out.print("    ");
-                    System.out.println(array[9][4]);
-                    System.out.print("     ");
-                    System.out.println(array[10][5]); 
-                    System.out.print("      ");              
-
-
-                    // SAMPALOC - (10 points)
-                    System.out.println(" ");
-                    System.out.println("7. SAMPALOC ");
-                    System.out.print(array[12][7]);
-                    System.out.print(array[12][8]);
-                    System.out.print(array[12][9]);
-                    System.out.print(array[12][10]);
-                    System.out.print(array[12][11]);
-                    System.out.print(array[12][12]);
-                    System.out.print(array[12][13]);
-                    System.out.println(array[12][14]);  
-
-                    // FRIDAY - (10 points)
-                    System.out.println(" ");
-                    System.out.println("8. FRIDAY ");
-                    System.out.print("      ");
-                    System.out.println(array[0][9]);
-                    System.out.print("     ");
-                    System.out.println(array[1][8]);
-                    System.out.print("    ");
-                    System.out.println(array[2][7]);
-                    System.out.print("   ");
-                    System.out.println(array[3][6]);
-                    System.out.print("  ");
-                    System.out.println(array[4][5]);
-                    System.out.print(" ");
-                    System.out.println(array[5][4]);  
-
-                    // PIZZA - (10 points)
-                    System.out.println(" ");
-                    System.out.println("9. PIZZA ");
-                    System.out.println(array[6][0]);
-                    System.out.print(" ");
-                    System.out.println(array[7][1]);
-                    System.out.print("  ");
-                    System.out.println(array[8][2]);
-                    System.out.print("   ");
-                    System.out.println(array[9][3]);
-                    System.out.print("    ");
-                    System.out.println(array[10][4]);
-                    System.out.print("     ");  
-
-                    // STARBUCKS - (10 points)
-                    System.out.println(" ");
-                    System.out.println("10. STARBUCKS ");
-                    System.out.println(array[4][14]);
-                    System.out.println(array[5][14]);
-                    System.out.println(array[6][14]);
-                    System.out.println(array[7][14]);
-                    System.out.println(array[8][14]);
-                    System.out.println(array[9][14]);
-                    System.out.println(array[10][14]);
-                    System.out.println(array[11][14]);  
-                    System.out.println(array[12][14]); 
-
-                }else{
-                    System.out.print("");
-
-                }
+                if (row == 8 && column == 8 || row == 7 && column == 8 || row == 6  && column == 8 || 
+                 row == 5 && column == 8 || row == 4 && column == 8 || row == 3 && column == 8 ||
+                 row == 2  && column == 8){
+                        System.out.print(array[row][column]);
             }
+                   else 
+                        System.out.print("");
+            }
+
+        }
+
+        // =============================================================
+        // INSTAGRAM - (10 points)
+        System.out.println(" ");
+        System.out.println("2. INSTAGRAM ");
+        
+        for (int row = 0; row < 15; row ++) {
+            System.out.println("");
+        for (int column = 0; column < 15; column ++) {
+
+            if (row == 1 && column == 1 || row == 2&& column == 2 || row == 3 && column == 3 ||
+            row == 4 && column == 4 || row == 5 && column == 5 || row == 6 && column == 6 || 
+            row == 7 && column == 7 || row == 8 && column == 8 || row == 9 && column == 9) {
+                System.out.print(array [row][column]);
+            }
+               else 
+                 System.out.print(" ");
+        }
+        
+        } 
+
+        // =============================================================
+        // PULUTAN - (10 points)
+        System.out.println(" ");
+        System.out.println("3. PULUTAN ");
+
+        for (int row = 0; row < 15; row ++) {
+            System.out.println("");
+        for (int column = 0; column < 15; column ++) {
+
+            if (row == 13 && column == 2  || row == 13 && column == 3 || row == 13 && column == 3 ||
+            row == 13 && column == 4 || row == 13 && column == 5 || row == 13 && column == 6 ||
+            row == 13 && column == 7 || row == 13 && column == 8) {
+                System.out.print(array [row][column]);
+            }
+              else 
+                System.out.print("");
+        }
+        
+        }
+
+        // =============================================================
+        // TUESDAY - (10 points)
+        System.out.println(" ");
+        System.out.println("4. TUESDAY ");
+
+        for (int row = 0; row < 15; row ++) {
+            System.out.println("");
+        for (int column = 0; column < 15; column ++) {
+
+            if( row == 8 && column == 1 || row == 9 && column == 1 ||row == 10 && column == 1 ||
+                row == 11 && column == 1 || row == 12 && column == 1 || row == 13 && column == 1 ||
+                row == 14 && column == 1){
+                    System.out.print(array[row][column]); 
+                }
+                  else
+                    System.out.print("");
+        }
+
+        }
+
+        // =============================================================
+        // CHILLTOP - (10 points)
+        System.out.println(" ");
+        System.out.println("5. CHILLTOP ");
+       
+        for (int row = 0; row < 15; row ++) {
+            System.out.println("");
+        for (int column = 0; column < 15; column ++) {
+
+            if(row == 10 && column == 7 || row == 9 && column == 8 || row == 8 && column == 9 ||
+               row == 7 && column == 10 || row == 6 && column == 11 || row == 5 && column == 12 ||
+               row == 4 && column == 13 || row == 3 && column == 14) {
+                  System.out.print(array[row][column]);
+               }
+                 else 
+                  System.out.print(" ");
+        }
+        }
+
+        // =============================================================
+        // MANILA - (10 points)
+        System.out.println(" ");
+        System.out.println("6. MANILA ");
+
+        for (int row = 0; row < 15; row ++) {
+            System.out.println("");
+        for (int column = 0; column < 15; column ++) {
+
+            if(row == 5 && column == 0 || row == 6 && column == 1 || row == 7 && column == 2 ||
+               row == 8 && column == 3 || row == 9 && column == 4 || row == 10 && column == 5 ||
+               row == 11 && column == 6){
+                  System.out.print(array[row][column]);
+               }
+                 else
+                  System.out.print(" ");
+        }
+        }
+
+        // =============================================================
+        // SAMPALOC - (10 points)
+        System.out.println(" ");
+        System.out.println("7. SAMPALOC ");
+
+        for (int row = 0; row < 15; row ++) {
+            System.out.println("");
+        for (int column = 0; column < 15; column ++) {
+
+            if(row == 12 && column == 7 || row == 12 && column == 8 || row == 12 && column == 9 || 
+               row == 12 && column == 10 || row == 12 && column == 11 || row == 12 && column == 12 ||
+               row == 12 && column == 13 || row == 12 && column == 14){
+                  System.out.print(array[row][column]);
+               }
+                 else
+                   System.out.print("");
+        }
         }
 
 
         // =============================================================
+        // FRIDAY - (10 points)
+        System.out.println(" ");
+        System.out.println("8. FRIDAY ");
 
-// BONUS (PRIZE AWAITS!)
-System.out.println(" ");
-System.out.println("11. EVERYBODY HAS A PRICE! ");
+        for (int row = 0; row < 15; row ++) {
+            System.out.println("");
+        for (int column = 0; column < 15; column ++) {
+            
+            if(row == 5 && column == 4 || row == 4 && column == 5|| row == 3 && column == 6 || 
+               row == 2 && column == 7 || row == 1 && column == 8 || row == 0 && column == 9 ){
+                  System.out.print(array[row][column]);
+               }
+                 else
+                   System.out.print(" ");
+        }
+        }
 
-// Let s be a string of lowercase Latin letters. Its price is the sum of the
-// indices of letters (an integer between 1 and 26) that are included in it. For
-// example, the price of the string abca is 1 + 2 + 3 + 1 = 7.
 
-// The string w and the integer p are given. Remove the minimal number of
-// letters from w so that its price becomes less than or equal to p and print
-// the resulting string. Note that the resulting string may be empty. You can
-// delete arbitrary letters, they do not have to go in a row. If the price of a
-// given string w is less than or equal to p, then nothing needs to be deleted
-// and w must be output.
 
-// Note that when you delete a letter from w, the order of the remaining letters
-// is preserved. For example, if you delete the letter e from the string test,
-// you get tst.
+        // =============================================================
+        // PIZZA - (10 points)
+        System.out.println(" ");
+        System.out.println("9. PIZZA ");
 
-// Input:
-// Each case consists of two lines.
+        for (int row = 0; row < 15; row ++) {
+            System.out.println("");
+        for (int column = 0; column < 15; column ++) {
+            
+            if(row == 6 && column == 0 || row == 7 && column == 1|| row == 8 && column == 2 || 
+               row == 9 && column == 3 || row == 10 && column == 4){
+                  System.out.print(array[row][column]);
+               }
+                 else
+                   System.out.print(" ");
+        }
+        }
 
-// The first of them is the string w, it is non-empty and consists of lowercase
-// Latin letters.
+        // =============================================================
+        // STARBUCKS - (10 points)
+        System.out.println(" ");
+        System.out.println("10. STARBUCKS ");
 
-// The second line contains an integer p (1 ≤ p ≤ 5200000).
+        for (int row = 0; row < 15; row ++) {
+            System.out.println("");
+        for (int column = 0; column < 15; column ++) {
 
-// Output:
-// Output exactly t rows, the i-th of them should contain the answer to the i-th
-// set of input data. Print the longest string that is obtained from w by
-// deleting letters such that its price is less or equal to p. If there are
-// several answers, then output any of them.
+            if (row == 4 && column == 14 || row == 5 && column == 14 || row == 6 && column == 14 ||
+                row == 5 && column == 14 || row == 6 && column == 14 || row == 7 && column == 14 || 
+                row == 8 && column == 14 || row == 9 && column == 14 || row == 10 && column == 14 || 
+                row == 11 && column == 14 || row == 12 && column == 14) {
+                     System.out.print(array[row][column]);
+                }
+                  else 
+                     System.out.print("");
+        }
 
-// Note that the empty string — is one of the possible answers. In this case,
-// just output an empty string.
+        }
 
-// ================================================================================
-
-// Example 1
-// Input:
-// abca
-// 2
-
-// Output:
-// aa
-
-// Example 2
-// Input:
-// abca
-// 6
-
-// Output:
-// abc
-
-// Example 3
-// Input:
-// elizer
-// 50
-
-// Output:
-// elier
 
     }
 }
